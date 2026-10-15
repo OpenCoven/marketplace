@@ -1,0 +1,1178 @@
+{
+  "name": "opencoven-first-party",
+  "interface": {
+    "displayName": "OpenCoven First-Party"
+  },
+  "plugins": [
+    {
+      "name": "github",
+      "source": "./marketplace/plugins/github",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "gmail",
+      "source": "./marketplace/plugins/gmail",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "google-calendar",
+      "source": "./marketplace/plugins/google-calendar",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "linear",
+      "source": "./marketplace/plugins/linear",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Project Management"
+    },
+    {
+      "name": "canva",
+      "source": "./marketplace/plugins/canva",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Design"
+    },
+    {
+      "name": "vercel",
+      "source": "./marketplace/plugins/vercel",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "asana",
+      "source": "./marketplace/plugins/asana",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Project Management"
+    },
+    {
+      "name": "xurl",
+      "source": "./marketplace/plugins/xurl",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Social"
+    },
+    {
+      "name": "tweet-thread-lab",
+      "source": "./marketplace/plugins/tweet-thread-lab",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Social"
+    },
+    {
+      "name": "filesystem",
+      "source": "./marketplace/plugins/filesystem",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Core MCP"
+    },
+    {
+      "name": "git",
+      "source": "./marketplace/plugins/git",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Core MCP"
+    },
+    {
+      "name": "fetch",
+      "source": "./marketplace/plugins/fetch",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Core MCP"
+    },
+    {
+      "name": "memory",
+      "source": "./marketplace/plugins/memory",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Core MCP"
+    },
+    {
+      "name": "sequential-thinking",
+      "source": "./marketplace/plugins/sequential-thinking",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Core MCP"
+    },
+    {
+      "name": "time",
+      "source": "./marketplace/plugins/time",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Core MCP"
+    },
+    {
+      "name": "serena",
+      "source": "./marketplace/plugins/serena",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Agents & Harnesses"
+    },
+    {
+      "name": "context7",
+      "source": "./marketplace/plugins/context7",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Agents & Harnesses"
+    },
+    {
+      "name": "markitdown",
+      "source": "./marketplace/plugins/markitdown",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Agents & Harnesses"
+    },
+    {
+      "name": "playwright",
+      "source": "./marketplace/plugins/playwright",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Browser & Web"
+    },
+    {
+      "name": "chrome-devtools",
+      "source": "./marketplace/plugins/chrome-devtools",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Browser & Web"
+    },
+    {
+      "name": "firecrawl",
+      "source": "./marketplace/plugins/firecrawl",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Browser & Web"
+    },
+    {
+      "name": "tavily",
+      "source": "./marketplace/plugins/tavily",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Browser & Web"
+    },
+    {
+      "name": "brightdata",
+      "source": "./marketplace/plugins/brightdata",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Browser & Web"
+    },
+    {
+      "name": "apify",
+      "source": "./marketplace/plugins/apify",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Browser & Web"
+    },
+    {
+      "name": "searxng",
+      "source": "./marketplace/plugins/searxng",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Browser & Web"
+    },
+    {
+      "name": "dbhub",
+      "source": "./marketplace/plugins/dbhub",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Databases"
+    },
+    {
+      "name": "supabase",
+      "source": "./marketplace/plugins/supabase",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Databases"
+    },
+    {
+      "name": "mongodb",
+      "source": "./marketplace/plugins/mongodb",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Databases"
+    },
+    {
+      "name": "azure",
+      "source": "./marketplace/plugins/azure",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Cloud & Infrastructure"
+    },
+    {
+      "name": "azure-devops",
+      "source": "./marketplace/plugins/azure-devops",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Cloud & Infrastructure"
+    },
+    {
+      "name": "terraform",
+      "source": "./marketplace/plugins/terraform",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Cloud & Infrastructure"
+    },
+    {
+      "name": "notion",
+      "source": "./marketplace/plugins/notion",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "atlassian",
+      "source": "./marketplace/plugins/atlassian",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Project Management"
+    },
+    {
+      "name": "figma",
+      "source": "./marketplace/plugins/figma",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Design"
+    },
+    {
+      "name": "stripe",
+      "source": "./marketplace/plugins/stripe",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Commerce"
+    },
+    {
+      "name": "microsoft-learn",
+      "source": "./marketplace/plugins/microsoft-learn",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Knowledge & Docs"
+    },
+    {
+      "name": "activepieces",
+      "source": "./marketplace/plugins/activepieces",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Automation"
+    },
+    {
+      "name": "desktop-commander",
+      "source": "./marketplace/plugins/desktop-commander",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "netdata",
+      "source": "./marketplace/plugins/netdata",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Cloud & Infrastructure"
+    },
+    {
+      "name": "fabric",
+      "source": "./marketplace/plugins/fabric",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Cloud & Infrastructure"
+    },
+    {
+      "name": "unity",
+      "source": "./marketplace/plugins/unity",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "nuget",
+      "source": "./marketplace/plugins/nuget",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "nuxt-dev",
+      "source": "./marketplace/plugins/nuxt-dev",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "stackql",
+      "source": "./marketplace/plugins/stackql",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Cloud & Infrastructure"
+    },
+    {
+      "name": "next-devtools",
+      "source": "./marketplace/plugins/next-devtools",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "coven-familiars",
+      "source": "./marketplace/plugins/coven-familiars",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Coven"
+    },
+    {
+      "name": "1password",
+      "source": "./marketplace/plugins/1password",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Security"
+    },
+    {
+      "name": "codeflow-maintainer",
+      "source": "./marketplace/plugins/codeflow-maintainer",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Agents & Harnesses"
+    },
+    {
+      "name": "coven-parallel-work",
+      "source": "./marketplace/plugins/coven-parallel-work",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Coven"
+    },
+    {
+      "name": "disk-space-optimizer",
+      "source": "./marketplace/plugins/disk-space-optimizer",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "linear-issue-management",
+      "source": "./marketplace/plugins/linear-issue-management",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Project Management"
+    },
+    {
+      "name": "memory-timeline-manager",
+      "source": "./marketplace/plugins/memory-timeline-manager",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Knowledge & Docs"
+    },
+    {
+      "name": "openclaw-dev",
+      "source": "./marketplace/plugins/openclaw-dev",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Agents & Harnesses"
+    },
+    {
+      "name": "pr-agent",
+      "source": "./marketplace/plugins/pr-agent",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Agents & Harnesses"
+    },
+    {
+      "name": "research-ingestion",
+      "source": "./marketplace/plugins/research-ingestion",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Knowledge & Docs"
+    },
+    {
+      "name": "archivists-index",
+      "source": "./marketplace/plugins/archivists-index",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research Crafts"
+    },
+    {
+      "name": "alchemists-crucible",
+      "source": "./marketplace/plugins/alchemists-crucible",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research Crafts"
+    },
+    {
+      "name": "oracles-measure",
+      "source": "./marketplace/plugins/oracles-measure",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research Crafts"
+    },
+    {
+      "name": "scribes-quill",
+      "source": "./marketplace/plugins/scribes-quill",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research Crafts"
+    },
+    {
+      "name": "grand-research-ritual",
+      "source": "./marketplace/plugins/grand-research-ritual",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research Crafts"
+    },
+    {
+      "name": "artificers-codex",
+      "source": "./marketplace/plugins/artificers-codex",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research Crafts"
+    },
+    {
+      "name": "seekers-lens",
+      "source": "./marketplace/plugins/seekers-lens",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research Crafts"
+    },
+    {
+      "name": "skill-scanner",
+      "source": "./marketplace/plugins/skill-scanner",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Security"
+    },
+    {
+      "name": "tinyfish-browser",
+      "source": "./marketplace/plugins/tinyfish-browser",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Browser & Web"
+    },
+    {
+      "name": "ask-curl",
+      "source": "./marketplace/plugins/ask-curl",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "codex-session-manager",
+      "source": "./marketplace/plugins/codex-session-manager",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Agents & Harnesses"
+    },
+    {
+      "name": "epub-to-pdf",
+      "source": "./marketplace/plugins/epub-to-pdf",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "lit-ui-designer",
+      "source": "./marketplace/plugins/lit-ui-designer",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Design"
+    },
+    {
+      "name": "ml-engineer",
+      "source": "./marketplace/plugins/ml-engineer",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "AI & ML"
+    },
+    {
+      "name": "openclaw-trust",
+      "source": "./marketplace/plugins/openclaw-trust",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Security"
+    },
+    {
+      "name": "project-manager",
+      "source": "./marketplace/plugins/project-manager",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Project Management"
+    },
+    {
+      "name": "ritual-dapp-frontend",
+      "source": "./marketplace/plugins/ritual-dapp-frontend",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "tauri-apple-release",
+      "source": "./marketplace/plugins/tauri-apple-release",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "tinyfish-fetch",
+      "source": "./marketplace/plugins/tinyfish-fetch",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Browser & Web"
+    },
+    {
+      "name": "board",
+      "source": "./marketplace/plugins/board",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Project Management"
+    },
+    {
+      "name": "daily-dev-agentic",
+      "source": "./marketplace/plugins/daily-dev-agentic",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Knowledge & Docs"
+    },
+    {
+      "name": "heygen-skills",
+      "source": "./marketplace/plugins/heygen-skills",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Media & Creative"
+    },
+    {
+      "name": "lobster",
+      "source": "./marketplace/plugins/lobster",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Automation"
+    },
+    {
+      "name": "nodriver",
+      "source": "./marketplace/plugins/nodriver",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Browser & Web"
+    },
+    {
+      "name": "opencoven-design",
+      "source": "./marketplace/plugins/opencoven-design",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Design"
+    },
+    {
+      "name": "prompt-engineer",
+      "source": "./marketplace/plugins/prompt-engineer",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "AI & ML"
+    },
+    {
+      "name": "threejs-animation",
+      "source": "./marketplace/plugins/threejs-animation",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Media & Creative"
+    },
+    {
+      "name": "tinyfish-search",
+      "source": "./marketplace/plugins/tinyfish-search",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Browser & Web"
+    },
+    {
+      "name": "cleanup-unused-files",
+      "source": "./marketplace/plugins/cleanup-unused-files",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "discrawl",
+      "source": "./marketplace/plugins/discrawl",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Social"
+    },
+    {
+      "name": "higgsfield-generate",
+      "source": "./marketplace/plugins/higgsfield-generate",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Media & Creative"
+    },
+    {
+      "name": "maintainer-bar",
+      "source": "./marketplace/plugins/maintainer-bar",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ocr",
+      "source": "./marketplace/plugins/ocr",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "opencoven-role-creation-process",
+      "source": "./marketplace/plugins/opencoven-role-creation-process",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Coven"
+    },
+    {
+      "name": "prompt-vault",
+      "source": "./marketplace/plugins/prompt-vault",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "AI & ML"
+    },
+    {
+      "name": "security-agent",
+      "source": "./marketplace/plugins/security-agent",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Security"
+    },
+    {
+      "name": "tinyfish-agent-run",
+      "source": "./marketplace/plugins/tinyfish-agent-run",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Browser & Web"
+    },
+    {
+      "name": "tinyfish-web-agent",
+      "source": "./marketplace/plugins/tinyfish-web-agent",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Browser & Web"
+    },
+    {
+      "name": "coven-flows",
+      "source": "./marketplace/plugins/coven-flows",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Coven"
+    },
+    {
+      "name": "coven-memory",
+      "source": "./marketplace/plugins/coven-memory",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Coven"
+    },
+    {
+      "name": "coven-evals",
+      "source": "./marketplace/plugins/coven-evals",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Coven"
+    },
+    {
+      "name": "coven-canvas",
+      "source": "./marketplace/plugins/coven-canvas",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Coven"
+    },
+    {
+      "name": "coven-automations",
+      "source": "./marketplace/plugins/coven-automations",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Coven"
+    },
+    {
+      "name": "slack",
+      "source": "./marketplace/plugins/slack",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "postgres",
+      "source": "./marketplace/plugins/postgres",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Databases"
+    },
+    {
+      "name": "sentry",
+      "source": "./marketplace/plugins/sentry",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cloudflare-docs",
+      "source": "./marketplace/plugins/cloudflare-docs",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Cloud & Infrastructure"
+    },
+    {
+      "name": "huggingface",
+      "source": "./marketplace/plugins/huggingface",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Agents & Harnesses"
+    },
+    {
+      "name": "exa",
+      "source": "./marketplace/plugins/exa",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Browser & Web"
+    },
+    {
+      "name": "e2b",
+      "source": "./marketplace/plugins/e2b",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "daytona",
+      "source": "./marketplace/plugins/daytona",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "browserbase",
+      "source": "./marketplace/plugins/browserbase",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Browser & Web"
+    },
+    {
+      "name": "elevenlabs",
+      "source": "./marketplace/plugins/elevenlabs",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Media & Creative"
+    },
+    {
+      "name": "sqlite",
+      "source": "./marketplace/plugins/sqlite",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Databases"
+    },
+    {
+      "name": "shadcn-ui-and-radix",
+      "source": "./marketplace/plugins/shadcn-ui-and-radix",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Design & UI"
+    },
+    {
+      "name": "tailwind-design-tokens",
+      "source": "./marketplace/plugins/tailwind-design-tokens",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Design & UI"
+    },
+    {
+      "name": "framer-motion-patterns",
+      "source": "./marketplace/plugins/framer-motion-patterns",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Design & UI"
+    },
+    {
+      "name": "wcag-a11y-audit",
+      "source": "./marketplace/plugins/wcag-a11y-audit",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Design & UI"
+    },
+    {
+      "name": "form-ux-patterns",
+      "source": "./marketplace/plugins/form-ux-patterns",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Design & UI"
+    },
+    {
+      "name": "dataviz-dashboard-ux",
+      "source": "./marketplace/plugins/dataviz-dashboard-ux",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Design & UI"
+    },
+    {
+      "name": "command-palette-keyboard-ux",
+      "source": "./marketplace/plugins/command-palette-keyboard-ux",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Design & UI"
+    },
+    {
+      "name": "empty-loading-error-states",
+      "source": "./marketplace/plugins/empty-loading-error-states",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Design & UI"
+    },
+    {
+      "name": "mobile-touch-ux",
+      "source": "./marketplace/plugins/mobile-touch-ux",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Design & UI"
+    },
+    {
+      "name": "design-system-landscape",
+      "source": "./marketplace/plugins/design-system-landscape",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Design & UI"
+    },
+    {
+      "name": "pretext",
+      "source": "./marketplace/plugins/pretext",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Design & UI"
+    },
+    {
+      "name": "brand-voice-generator",
+      "source": "./marketplace/plugins/brand-voice-generator",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Design"
+    },
+    {
+      "name": "mcp-client",
+      "source": "./marketplace/plugins/mcp-client",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Core MCP"
+    },
+    {
+      "name": "pptx-generator",
+      "source": "./marketplace/plugins/pptx-generator",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Media & Creative"
+    },
+    {
+      "name": "remotion",
+      "source": "./marketplace/plugins/remotion",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Media & Creative"
+    },
+    {
+      "name": "skill-creator",
+      "source": "./marketplace/plugins/skill-creator",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Agents & Harnesses"
+    },
+    {
+      "name": "sop-creator",
+      "source": "./marketplace/plugins/sop-creator",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Knowledge & Docs"
+    },
+    {
+      "name": "worldbuilding",
+      "source": "./marketplace/plugins/worldbuilding",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Knowledge Packs"
+    },
+    {
+      "name": "prompt-pack-essentials",
+      "source": "./marketplace/plugins/prompt-pack-essentials",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "prompt-pack-shipping",
+      "source": "./marketplace/plugins/prompt-pack-shipping",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "charms-loom",
+      "source": "./marketplace/plugins/charms-loom",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Communication Crafts"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "@opencoven/marketplace",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "sync": "python3 scripts/sync-marketplace.py",
+    "check": "python3 scripts/sync-marketplace.py --check && node scripts/sync-marketplace.test.mjs",
+    "package": "node scripts/package-payloads.mjs && node scripts/package-payloads.test.mjs"
+  }
+}
